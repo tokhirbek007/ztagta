@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #828282;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 33px 0;
+  border-bottom: 1px solid #828282;
+}
+
+ul li:hover {
+  color: #070707;
+}
+.menu {
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.showcase-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 30px;
+}
+
+.showcase-header h1 {
+  font-size: 47px;
+  max-width: 123px;
+  color: #070707;
+}
+
+.showcase-description {
+  color: #070707;
+  font-size: 18px;
+  max-width: 165px;
+  line-height: 22px;
+}
+
+.showcase-language {
+  transform: rotate(-90deg);
+  font-weight: 700;
+  color: #828282;
+}
+
+.showcase-language span {
+  color: #000;
+}
+
+.showcase-image img {
+  width: 100%;
+}
+
+.about {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 108px 0;
+}
+.about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-description {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skills {
+  text-align: center;
+  padding: 90px 0 110px;
+}
+
+.skills > p {
+  padding: 69px 0 83px;
+}
+
+.skills .card p {
+  padding: 24px 0 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #828282;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 116px 0 96px;
+    background: #f6f6f6;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    margin-bottom: 99px;
+}
+
+.portfolio h1 {
+    margin-bottom: 47px;
+    
+}
+
+.portfolio-item a {
+    text-decoration: underline;
+}
+
+.contacts{
+  text-align: center;
+  padding: 63px 0px;
+}
+.contacts h1{
+  font-size: 34px;
+  line-height: 42px;
+}
+.want{
+  line-height: 22px;
+  font-size: 18px;
+  width:  275px;
+  margin: 30px auto;
+}
+.contacts button{
+  width: 180px;
+  height: 42px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 20px;
+  background-color: black;
+  border: none;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px;
+  gap: 40px;
+}
+.like{
+  width: 243px;
+  font-size: 14px;
+  color: #828282;
+  line-height: 17px;
+  margin: 0 auto;
+}
